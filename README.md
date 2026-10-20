@@ -1,5 +1,9 @@
 # PlanEat: mood-based AI meal planner for iOS
 
+## My role (Jimin Kim)
+
+I designed the app in Figma and built the SwiftUI front end, about 20 screens, on top of the GPT-4o mini (meal suggestions) and DALL-E 3 (food images) APIs, with Firebase for accounts. I owned the loading and failure states around every model call so the user always has a next action when the model is slow or returns something odd. Team: Seyeon Bark, David Kim, Jimin Kim. Figma file and case study at https://jiminkimworks.com.
+
 PlanEat is an iOS app built with SwiftUI, Firebase, and the OpenAI API. It asks how you feel each day and suggests breakfast, lunch, dinner, and a snack to match, with calories and ingredients for each meal. Your profile (age, goals, health conditions) shapes the suggestions, and everything you log is saved to your account.
 
 ## Demo
